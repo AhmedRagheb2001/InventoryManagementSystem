@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>These are all the products</h1>
+    <main>
+        <table border="1px">
+            <tr>
+                <!-- <th>Product ID</th> -->
+                <th>Product Name</th>
+                <th>Product Price</th>
+                <th>Product Quantity</th>
+            </tr>
+            <%for(let product of products){%>
+                <tr>
+                    <td><%=product.Name%></td>
+                    <td><%=product.Price%></td>
+                    <td><%=product.Quantity%></td>
+                </tr>
+            <%}%>
+        </table>
+    </main>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "inventorymanagementsystem",
+  "version": "1.0.0",
+  "description": "This is an Inventory Management System to manage the inventory using some basic CRUD operations to basically add ,delete ,update ang get Products ",
+  "homepage": "https://github.com/AhmedRagheb2001/InventoryManagementSystem#readme",
+  "bugs": {
+    "url": "https://github.com/AhmedRagheb2001/InventoryManagementSystem/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedRagheb2001/InventoryManagementSystem.git"
+  },
+  "license": "MIT",
+  "author": "AhmedRagheb",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^5.0.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.1"
+  }
+}
